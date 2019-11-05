@@ -6,8 +6,8 @@ import java.math.*;
 import java.text.*;
 import java.io.*;
 
-public class DateUtil
-{
+public class DateUtil{
+    
     private static Pattern timePattern;
     
     public static String removeTimePattern(final String input) {
