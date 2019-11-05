@@ -8,8 +8,8 @@ import org.bukkit.enchantments.*;
 import org.bukkit.*;
 import org.bukkit.inventory.meta.*;
 
-public class ItemBuilder extends ItemStack implements Listener
-{
+public class ItemBuilder extends ItemStack implements Listener{
+    
     private final ItemStack is;
     
     public ItemBuilder(final Material mat) {
