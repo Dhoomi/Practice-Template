@@ -1,0 +1,104 @@
+#lANGURAGE FILE PRACTICE
+
+#OTHER
+NO_PERMISSION: "&cYou do not have permission to use this command."
+INCORRECT_USAGE: "&cIncorrect usage."
+JOIN_MESSAGE:
+  - ""
+
+#DUELS
+MATCH_STARTED: "&cThe match has started, good luck!"
+MATCH_STARTS: "&eThe match starts in &a%countdown%&e..."
+CANNOT_LEAVE_IN_MATCH: "&cYou can't leave during a match."
+
+#ADMIN COMMANDS
+
+#PARTY COMMANDS
+NOT_LEADER: "&cYou are not the leader of this party"
+NOT_IN_PARTY: "&cThis player is not in a party!"
+CANNOT_KICK_LEADER: "&cYou cannot kick the party leader!"
+PLAYER_NOT_LEADER: "&cThis player is not the leader of that party!"
+PLAYER_NOT_IN_PARTY: "&cThis player is not in your party!"
+PARTY_BUSY: "&cThis party is currently busy."
+ALREADY_IN_PARTY: "&cYou are already in a party!"
+PARTY_EXISTS: "&cThat party does not exist."
+PARTY_JOIN: "&eYou have joined the party!"
+PARTY_KICKED: "&eYou have been kicked from the party."
+PLAYER_KICK_PARTY_TWO: "&a%player% &ehas been kicked from your party."
+PARTY_CREATE: "&aYou have created a party."
+PARTY_FULL: "&cParty size has reached it's limit."
+NO_PARTY: "&cYou are not in a party!"
+DISBANDED_PARTY: "&eYou have disbanded the party."
+LEADER_DISBANDED_PARTY: "&eThe party has been disbanded."
+PLAYER_IN_PARTY: "&cThis player is in a party!"
+PLAYER_LEAVE_PARTY: "&6[-] &a%player% has left the party."
+PLAYER_JOIN_PARTY: "&6[+] &a%player% has joined the party."
+PLAYER_KICK_PARTY: "&6[-] &a%player% has been kicked from the party."
+PARTY_INVITATION: "&cYou have already sent a party invitation to this player, please wait!"
+PARTY_OPENED_ALREADY: "&cYour party is already open."
+PARTY_OPENED: "&cYour party is now open."
+PARTY_LOCKED_ALREADY: "&eThe party is already locked."
+PARTY_LOCKED: "&cYour party is now locked."
+PLAYER_LEAVE_PARTY: "&6[-] &a%player% has left the party."
+PLAYER_JOIN_PARTY: "&6[+] &a%player% has joined the party."
+PARTY_OPENED_ALREADY: "&cYour party is already open."
+PARTY_OPENED: "&cYour party is now open."
+PARTY_IS_OPENED: "&cThis party is open, so anyone can join."
+
+PARTY_HELP_COMMAND:
+  - "&7&M----------------------------------------------------"
+  - "&6Party HELP:"
+  - "&eAdd information here!"
+  - "&7&M----------------------------------------------------"
+PARTY_INFO_COMMAND:
+  - "&7&M----------------------------------------------------"
+  - "&6Party Information:"
+  - "&eLeader: &a%party_leader%"
+  - "&eMembers&7(%party_size%)&e: &a%party_leader%, &a%party_members%"
+  - "&eParty State: &a%party_state%"
+  - "&7&M----------------------------------------------------"
+TOURNAMENT_FORCE_STOP:
+  - "&7&M----------------------------------------------------"
+  - "&e&lTOURNAMENT (%max_per_team%v%max_per_team%)"
+  - "&cEnded by an administrator (Force-Stopped)"
+  - "&7&M----------------------------------------------------"
+TOURNAMENT_ENDED_TIMEOUT:
+  - "&7&M----------------------------------------------------"
+  - "&e&lTOURNAMENT (%max_per_team%v%max_per_team%)"
+  - "&cEnded with not enough players (Timeout: 15 minutes)"
+  - "&7&M----------------------------------------------------"
+TOURNAMENT_STARTING:
+  - "&7&M----------------------------------------------------"
+  - "&c&lTOURNAMENT (%max_per_team%v%max_per_team%) IS STARTING SOON."
+  - "&eJoin the tournament using the command /join or [Click here]"
+  - "&7&M----------------------------------------------------"
+TOURNAMENT_ROUNDS:
+  - "&7&M----------------------------------------------------"
+  - "&e&lTOURNAMENT (%max_per_team%v%max_per_team%) %round% ROUND"
+  - "&cThe %round% Round has just begun!"
+  - "&7&M----------------------------------------------------"
+TOURNAMENT_WINNERS:
+  - "&7&M----------------------------------------------------"
+  - "&e&lTOURNAMENT (%max_per_team%v%max_per_team%) WINNER"
+  - "&cWinner(s): %winners%"
+  - "&7&M----------------------------------------------------"
+
+#TOURNAMENT
+ALREADY_IN_TOURNAMENT: "&cYou are already in a tournament."
+NO_TOURNAMENT: "&cThere are no tournaments available."
+IN_TOURNAMENT: "&cYou are currently in another tournament."
+NOT_IN_TOURNAMENT: "&cYou are not in any tournament."
+WRONG_ID_TOURNAMENT: "&cThat tournament id doesn't exist."
+ALREADY_STARTED_TOURNAMENT: "&cSorry! The tournament already started."
+FULL_TOURNAMENT: "&cSorry! The tournament is already full."
+CURRENTLY_IN_TOURNAMENT: "&cYou are already in the tournament."
+JOIN_TOURNAMENT: "&e%player% has joined the tournament. (%tournament_total%/%tournament_limit%)"
+MUST_BE_PLAYER: "&cYou must be in a party to join this tournament."
+MUST_BE_LEADER: "&cOnly the leader can join the tournament."
+PARTY_MAX_PLAYERS: "&cThe party must have only %max_players% players."
+PARTY_JOIN_TOURNAMENT: "&e%player%'s Party has joined the tournament. (%tournament_total%/%tournament_limit%)"
+USAGE_JOIN_TOURNAMENT: "&cUsage: /join"
+
+#PREMIUM MATCHES
+GIVEN_PREMIUM_MATCHES: "&eGiven &a%amount%&e matches to &a%player%&e."
+RECEIVED_PREMIUM_MATCHES: "&eYou have received &a%amount% &epremium matches."

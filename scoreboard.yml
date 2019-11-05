@@ -1,0 +1,38 @@
+SCOREBOARD:
+  LOBBY:
+  - ' '
+  - '&eOnline: &f%online_players%'
+  - '&dIn Fights: &f%in_fights%'
+  - '&bIn Queues: &f%in_queue%'
+  - '&aPremium: &f%premium_matches%'
+  - '%tournament%'
+  - ' '
+  - '&6www.servername.com'
+  TOURNAMENT:
+  - ' '
+  - '&6&lTournament'
+  - '&eStage: %tournament_stage%'
+  - '&ePlayers: &f%tournament_players_total%/32'
+  DUEL_NORMAL:
+  - ' '
+  - '&c&lOpponent:'
+  - '&f &f %opponent%'
+  - ' '
+  - '&e&lLadder: &f%ladder%'
+  - '&6&lDuration: &f%time_left%'
+  - ' '
+  - '&6www.servername.com'
+  DUEL_FFA:
+  - ' '
+  - '&e&lLadder: &f%ladder%'
+  - '&6&lDuration: &f%time_left%'
+  - ' '
+  - '&6www.servername.com'
+  LOADING:
+  - ' '
+  - '&3&lMatch Ended:'
+  - '&eWinner: &f%winner%'
+  - '&eLadder: &f%ladder%'
+  - '&6Duration: &f%end_time%'
+  - ' '
+  - '&6www.servername.com'

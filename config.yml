@@ -1,0 +1,123 @@
+DATABASE:
+  MONGO:
+    HOST: "127.0.0.1"
+    PORT: 27017
+    AUTHENTICATION:
+      ENABLED: FALSE
+      DATABASE: "practice"
+      USER: "user"
+      PASSWORD: "password"
+#
+SCOREBOARD_TITLE: "&7Server Name &c[Practice]"
+#
+commands:
+  accept:
+    unable: "&cYou cannot accept a duels right now."
+    accept: "&eAccepted duel against &b%player%&e."
+    inparty: "&cEither you or the target player is in a party."
+  arena:
+    create:  "&eSuccessfully created the arena &a%arena%&e."
+    pos1: "&eSuccessfully set the first team's location in arena &a%arena%&e."
+    pos2: "&eSuccessfully set the second team's location in arena &a%arena%&e."
+    toggle: "&eArena &6%arena% &eis now &b%toggle%."
+    remove: "&eArena &6%arena% &ehas been removed."
+  admin:
+    enabled: "&aAdmin mode has been enabled."
+    disabled: "&cAdmin mode has been disabled."
+  credits:
+    send: "&aGiven %amount% credits to %player%."
+    recieve: "&aYou have received %amount% ELO credits."
+  duel:
+    not_leader: "&cYou are not the leader of this party."
+    not_in_party: "&cThis player is not in a party."
+    player_not_leader: "&cThis player is not the leader of that party."
+    party_busy: "&cThis party is currently busy."
+    player_in_party: "&cThis player is in a party."
+  inventory:
+    snapshot: "&cNo data found."
+  kit:
+    create: "&aSuccessfully created a kit with the name &a%kit%&a."
+    combo: "&eKit &6%kit% &eis now &f%combo%&e."
+    ranked: "&eKit &6%kit% &eis now &f%ranked%&e."
+    premium: "&eKit &6%kit% &eis now &f%premium%&e."
+    editable: "&eKit &6%kit% &eis now &f%editable%&e."
+    builduhc: "&eKit &6%kit% &eis now &f%builduhc%&e."
+    enable: "&eKit &6%kit% &eis now &f%enable%&e."
+    setinventory: "&aKit %kit% now has your inventory setup."
+    retrieve: "&aYou have retrieved kit %kit%&a's inventory setup."
+    seticon: "&aKit %kit% now has an icon as the item in your hand."
+    remove: "&cKit %kit% &chas been removed."
+  party:
+    already_in_party: "&cYou are already in a party."
+    create: "&aSuccessfully created a party."
+    no_party: "&cYou are not in a party."
+    disband: "&eYou have successfully disbanded the party."
+    disbanded: "&cThe party has been disbanded."
+    opened: "&cYour party is already open."
+    open: "&eYour party is now &aopen&e."
+    not_leader: "&cYou are not the leader of this party."
+    locked_already: "&eThe party is already locked."
+    locked: "&eYour party is now &clocked&e."
+    exist: "&cThat party does not exist."
+    full: "&cYou have reached the maximum party limit."
+    join: "&2%player% &ahas joined the party."
+    leave: "&4%player% &chas left the party."
+    party_join: "&eYou have successfully joined the party."
+    cannot_kick_leader: "&cYou cannot kick the party leader."
+    not_in_party: "&cThis player is not in your party."
+    kick_party: "&4%player% &chas been kicked from the party."
+    kicked: "&eYou have been kicked from the party."
+    is_opened: "&cThis party is open, so anyone can join."
+    in_party: "&cThis player is in a party."
+    invitation: "&cYou have already sent a party invitation to this player."
+  ping:
+    notfound: "&cPlayer not found"
+    ping: "&b%name%%s% &ecurrent ping is &6%ping%ms&e."
+    difference: "&ePing Difference: &f%difference%ms"
+  reset:
+    no_reset: "&cYou don't have enough credits."
+    reset: "&aYour ELO has been reset."
+  scoreboard:
+    toggle: "&eYour scoreboard has been toggled. &7[%status%&7]"
+  spawn:
+    set: "&aSpawn is now set."
+  spectate:
+    no_fight: "&cThat player is currently not fighting"
+#
+listener:
+  duel:
+    start: "&aMatch started."
+    starting: "&e%countdown%..."
+  inventory:
+    no_work: "&cYou must be in a party."
+    must_be_two: "&cThere must be at least 2 players in your party."
+    not_leader: "&cYou are not the leader of this party."
+    cannot_fight: "&cYour party is currently busy and cannot fight."
+    party_in_queue: "&aYour party is now queued for unranked 2v2 &2%kit%&a."
+    in_queue: "&aYou are now queued for unranked %kit%&a."
+    ranked_party_queue: "&aYour party is now queued for ranked 2v2 %kit%&a."
+    party_added: "&aYour party is now queued for ranked %kit%&a."
+    ranked_queue: "&aYou are now queued for ranked %kit%&a."
+  player:
+    buildarrow: "&f%name% &enow has &c%hp%/10 &ehealth."
+    leader_left: "&cYour party leader has disconnected."
+    leave: "&cYour party is no longer in the queue."
+    not_leader: "&cYou are not the leader of this party"
+    is_busy: "&cYour party is currently busy and cannot fight"
+    party_left: "&cYour party is no longer in the queue."
+    left: "&cYou are no longer in the queue."
+    enderpearl: "&cYou cannot throw enderpearls right now."
+  premium:
+    reset: "&ePremium Matches Tokens will clear in 30 minutes."
+    hasreset: "&ePremium Matches have been reset"
+#
+ErrorMessages:
+  console_only: "&cThis command can only be executed from the console."
+  nopermission: "&cNo permission."
+  incorrect_usage: "&cIncorrect usage."
+  cannot_perform: "&cCannot execute this command in your current state"
+  no_requests: "&cYou do not have any pending requests."
+  player_not_found: "&cPlayer not found"
+  player_busy: "&cThis player is currently busy."
+  selfduel: "&cCannot duel yourself."
+  waiting: "&cYou already sent a duel request to this player."

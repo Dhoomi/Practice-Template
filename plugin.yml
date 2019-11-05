@@ -1,0 +1,80 @@
+name: Practice
+version: "${project.version}"
+author: Dhoom_
+main: io.dhoom.Practice
+depend: [ProtocolLib, Vault]
+softdepend: [Vault]
+load: POSTWORLD
+commands:
+  setting:
+      aliases: [settings, option , options, opt]
+  ping:
+    description: 'Ping command'
+    usage: '/ping'
+  matches:
+    description: 'Matches command'
+    usage: '/matches'
+  tokens:
+    description: 'Tokens command'
+    usage: '/tokens'
+  host:
+    description: 'Host Events command'
+    usage: '/host'
+  setspawn:
+    description: 'Set Spawn command'
+    usage: '/setspawn'
+  leave:
+    description: 'Leave command'
+    usage: '/leave'
+  join:
+    description: 'Join command'
+    usage: '/join'
+  tournament:
+    description: 'Tournament command'
+    aliases: [tourney, tour]
+    usage: '/tournament'
+  reset:
+    description: 'Reset command'
+    aliases: [resetelo, eloreset]
+    usage: '/reset'
+  seteditorspawn:
+    description: 'Set Editor Spawn '
+    usage: '/seteditorspawn'
+  credits:
+    description: 'Credits command'
+    aliases: [credit]
+    usage: '/credits'
+  arena:
+    description: 'Arena command'
+    usage: '/arena'
+  duel:
+    description: 'Send a duel'
+    usage: '/duel [player]'
+  accept:
+    description: 'Accept a player duel'
+    usage: '/accept [player]'
+  kit:
+    description: 'Kit command'
+    usage: '/kit'
+  spectate:
+    description: 'Spectate a player'
+    usage: '/spectate <playername>'
+    aliases: [spec, watch]
+  build:
+    description: 'Puts you into admin mode'
+    usage: '/build'
+  party:
+    description: 'Party command'
+    usage: '/party'
+    aliases: [p, team, f, t, faction]
+  inventory: {}
+permissions:
+  practice.commands.arena:
+    description: Gives access to the arena command
+    default: op
+  practice.commands.kit:
+    description: Gives access to the kit command
+    default: op
+  practice.commands.builder:
+    description: Gives access to the builder command
+    default: op
