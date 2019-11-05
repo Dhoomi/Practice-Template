@@ -4,8 +4,8 @@ import org.bukkit.plugin.java.*;
 import java.io.*;
 import org.bukkit.configuration.file.*;
 
-public class Config
-{
+public class Config{
+    
     private FileConfiguration config;
     private File file;
     private String name;

@@ -6,8 +6,8 @@ import org.bukkit.plugin.java.*;
 import org.bukkit.*;
 import java.util.*;
 
-public class ConfigFile
-{
+public class ConfigFile{
+    
     private File file;
     private YamlConfiguration configuration;
     

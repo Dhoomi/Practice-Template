@@ -5,13 +5,12 @@ import org.bukkit.*;
 import com.google.common.collect.*;
 import org.bukkit.inventory.*;
 import java.util.*;
-import io.kipes.*;
+import io.dhoom.*;
 import org.bukkit.event.inventory.*;
-import io.kipes.duel.*;
-import io.kipes.player.*;
+import io.dhoom.duel.*;
+import io.dhoom.player.*;
 
-public class Sinventory
-{
+public class Sinventory{
     private String title;
     private List<ItemStack> contents;
     private ItemStack oldPage;
