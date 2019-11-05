@@ -5,8 +5,8 @@ import java.util.*;
 import org.bukkit.*;
 import com.google.common.collect.*;
 
-public class BlockChangeTracker
-{
+public class BlockChangeTracker {
+
     private LinkedList<BlockState> changeTrackers;
     private Set<Location> playerPlacedBlocks;
     

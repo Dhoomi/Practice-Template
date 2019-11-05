@@ -2,8 +2,8 @@ package io.dhoom.arena;
 
 import org.bukkit.*;
 
-public class Arena
-{
+public class Arena{
+
     private boolean enabled;
     private String name;
     private Location firstTeamLocation;
