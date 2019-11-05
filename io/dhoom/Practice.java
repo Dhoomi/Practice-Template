@@ -20,8 +20,8 @@ import org.bukkit.command.*;
 import io.dhoom.settings.*;
 import io.dhoom.commands.*;
 
-public class Practice extends JavaPlugin
-{
+public class Practice extends JavaPlugin{
+    
     public static final Pattern UUID_PATTER;
     public static Pattern splitPattern;
     private static Practice instance;
